@@ -2,4 +2,8 @@
 
 ## Install Docker & Docker Compose  
 
-`curl -s https://raw.githubusercontent.com/node-runners/starter/main/prerequisites/install-docker-ubuntu.sh | bash  `  
+`bash -c "$(curl -fsSL https://raw.githubusercontent.com/node-runners/starter/main/prerequisites/install-docker-ubuntu.sh)"`    
+
+## Set Node globals   
+
+`bash -c "$(curl -fsSL https://raw.githubusercontent.com/node-runners/starter/main/prerequisites/install-node-globals.sh)"`  
