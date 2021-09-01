@@ -1,5 +1,8 @@
 #!/bin/bash  
 
+source ~/.profile  
+
+
 set -e  
 
 if [[ -z $NR_VM_PASSWORD  ]]; then
