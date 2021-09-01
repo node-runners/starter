@@ -37,7 +37,7 @@ scrape_configs:
       - source_labels: [__address__]
         regex: '.*'
         target_label: instance
-        replacement: '$NR_NODE_NAME@$HOSTNAME'
+        replacement: '$NR_NODE_NAME'
 EOF
 
 
