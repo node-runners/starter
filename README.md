@@ -7,3 +7,7 @@
 ## Set Node globals   
 
 `bash -c "$(curl -fsSL https://raw.githubusercontent.com/node-runners/starter/main/prerequisites/install-node-globals.sh)"`  
+
+## Install Metrics  
+
+`bash -c "$(curl -fsSL https://raw.githubusercontent.com/node-runners/starter/main/prerequisites/install-vmagent-ubuntu.sh)"`  
